@@ -1,6 +1,6 @@
 public class FirstLetterToUpperCase {
     public static void main(String[] args) {
-        String x = "bright ugochukwu anokwuru";
+        String x = "bright ugochukwu anokwuru is a one of the best";
         char y[] = x.toCharArray();
         int size = y.length;
        y[0] = (char) (y[0] - 32);
