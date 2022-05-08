@@ -1,6 +1,6 @@
 public class StringContainsIntegers {
     public static void main(String[] args) {
-        String str = "123456789";
+        String str = "123456AA789";
         //System.out.println(str.matches("\\d+"));
 //        char [] y = str.toCharArray();
 //        for(int i = 0; i < y.length; i++) {
