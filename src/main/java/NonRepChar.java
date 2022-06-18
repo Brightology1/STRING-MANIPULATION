@@ -1,5 +1,4 @@
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
@@ -12,7 +11,7 @@ public class NonRepChar {
         Map<Character, Integer> map = new HashMap<>();
         int i = 0;
         while (i != size){
-            if(map.containsKey(y[i]) == false){
+            if(!map.containsKey(y[i])){
                 map.put(y[i],1);
             }
             else{
